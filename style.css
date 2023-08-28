@@ -84,7 +84,7 @@ nav a {
     margin-right: 20px;
 }
 
-
+/*
 .udsolgt {
     position: absolute;
     top: 40%;
@@ -108,7 +108,7 @@ nav a {
     font-size: 12px;
     border-radius: 10px;
 }
-
+*/
 
 .produkt {
     position: relative;
@@ -134,7 +134,9 @@ nav a {
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+/*
 .nypris{
     color: #eb9e77;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+*/
