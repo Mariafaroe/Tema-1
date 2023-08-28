@@ -1,0 +1,140 @@
+
+body, h1, h2, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+  text-decoration: none;
+}
+
+header, footer {
+   
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #fdfdfd;
+    padding: 1rem;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0b0b0b;
+    justify-content: center;
+}
+.forside {
+    font-size: 28px; 
+    display: inline-block; 
+    text-align: center; /* Centrerer teksten vandret */
+    width: 100%; 
+    text-decoration: none;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.produktside_img {
+    display: block;
+    max-width: 30%;
+    margin: 0 auto 10px;
+}
+.produktside {
+    text-align: center;
+
+   
+}
+
+
+.kategorier {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+    padding: 40px; 
+}
+
+.kategorier a {
+    display: block;
+    text-decoration: none;
+    background-color: #fbfbfb;
+    padding: 40px;
+    border: 1px solid #da1717;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    background-color: #fa02b417;
+    
+}
+
+.produktliste-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px;
+    padding: 50px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.udsolgt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0d3c5;
+    color: rgb(104, 102, 102);
+    padding: 100px;
+    opacity: 95%;
+    border-radius: 30%;
+    font-size: 24px;
+}
+
+.tilbud {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #eb9e77;
+    color: white;
+    padding: 20px 20px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+
+.produkt {
+    position: relative;
+    border: 1px solid #8f8989;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.produkt img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produkt h3 {
+    margin: 10px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.produkt p {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nypris{
+    color: #eb9e77;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
