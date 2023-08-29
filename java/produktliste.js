@@ -24,6 +24,10 @@ function showProduct(product){
         copy.querySelector("article").classList.add("soldOut"); 
     }
 
+    copy.querySelector(".readmore").setAttribute("href", `produkt.html?id=${product.id}`);
+
+
+
     if(product.discount){
         copy.querySelector("article").classList.add("discount");  
     }
